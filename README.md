@@ -24,3 +24,17 @@ docker container run -d -p 8080:80 nginx-website
 ```
 
 http://localhost:8080/
+
+**Stop container**
+
+```shell
+docker stop <container-id>
+
+docker rm <container-id>
+```
+
+**Delete image**
+
+```shell
+docker rmi <image-id>
+```
